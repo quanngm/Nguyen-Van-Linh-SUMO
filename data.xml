@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-03-22 00:23:19 by Eclipse SUMO GUI Version 1.21.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\Nguyen Minh Quan\OneDrive\OneDrive - student.vgu.edu.vn\Desktop\SUMO simulation\New folder\Simple T Junction\simpleT.net.xml"/>
+        <route-files value="C:\Users\Nguyen Minh Quan\OneDrive\OneDrive - student.vgu.edu.vn\Desktop\SUMO simulation\New folder\Simple T Junction\simpleT.rou.xml"/>
+    </input>
+
+    <output>
+        <emission-output value="C:\Users\Nguyen Minh Quan\OneDrive\OneDrive - student.vgu.edu.vn\Desktop\SUMO simulation\New folder\Simple T Junction\emissions_data.xml"/>
+        <tripinfo-output value="C:\Users\Nguyen Minh Quan\OneDrive\OneDrive - student.vgu.edu.vn\Desktop\SUMO simulation\New folder\Simple T Junction\data.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="600"/>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <lateral-resolution value="0.3"/>
+        <time-to-teleport value="-1"/>
+    </processing>
+
+    <emissions>
+        <device.emissions.probability value="1.0"/>
+    </emissions>
+
+</sumoConfiguration>

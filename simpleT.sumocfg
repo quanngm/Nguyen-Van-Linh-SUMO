@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<configuration xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="https://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+    <input>
+        <net-file value="simpleT.net.xml"/>
+        <route-files value="simpleT.rou.xml"/>
+    </input>
+
+    <processing>
+        <lateral-resolution value="0.3" />
+        <tripinfo-output value="data.xml"/>
+        <emission-output value="emissions_data.xml" />
+        <device.emissions.probability value="1.0" />
+    </processing>
+
+    <time>
+        <begin value="0"/>
+        <end value="600"/>
+        <step-length value="1"/> <!-- Simulation step length (default = 1 second) -->
+    </time>
+
+    <time-to-teleport value="-1"/>
+
+</configuration>
