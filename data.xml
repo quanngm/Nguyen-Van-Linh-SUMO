@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2025-03-23 15:58:52 by Eclipse SUMO GUI Version 1.21.0
+<!-- generated on 2025-03-23 17:07:03 by Eclipse SUMO GUI Version 1.21.0
 <sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
@@ -646,11 +646,5 @@
     </tripinfo>
     <tripinfo id="pkw21.11" depart="125.00" departLane="L33_0" departPos="0.00" departPosLat="0.00" departSpeed="0.00" departDelay="102.00" arrival="218.00" arrivalLane="L34_0" arrivalPos="162.52" arrivalPosLat="0.00" arrivalSpeed="10.67" duration="93.00" routeLength="1185.86" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="10.36" rerouteNo="0" devices="tripinfo_pkw21.11 routing_pkw21.11 emissions_pkw21.11" vType="pkw" speedFactor="1.03" vaporized="">
         <emissions CO_abs="1911.421751" CO2_abs="242446.033769" HC_abs="13.034560" PMx_abs="2.760788" NOx_abs="85.382020" fuel_abs="77329.781605" electricity_abs="0"/>
-    </tripinfo>
-    <tripinfo id="scooter1.2" depart="64.00" departLane="L1_0" departPos="0.00" departPosLat="0.00" departSpeed="0.00" departDelay="61.00" arrival="219.00" arrivalLane="L9_1" arrivalPos="250.00" arrivalPosLat="0.00" arrivalSpeed="15.27" duration="155.00" routeLength="1245.47" waitingTime="51.00" waitingCount="2" stopTime="0.00" timeLoss="79.11" rerouteNo="0" devices="tripinfo_scooter1.2 routing_scooter1.2 emissions_scooter1.2" vType="scooter" speedFactor="1.19" vaporized="">
-        <emissions CO_abs="990.346113" CO2_abs="73316.132693" HC_abs="70.607400" PMx_abs="41.825232" NOx_abs="49.415438" fuel_abs="23766.058832" electricity_abs="0"/>
-    </tripinfo>
-    <tripinfo id="pkw20.12" depart="120.00" departLane="L30_0" departPos="0.00" departPosLat="0.00" departSpeed="0.00" departDelay="92.00" arrival="219.00" arrivalLane="L31_0" arrivalPos="84.95" arrivalPosLat="0.00" arrivalSpeed="13.28" duration="99.00" routeLength="1193.30" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="10.68" rerouteNo="0" devices="tripinfo_pkw20.12 routing_pkw20.12 emissions_pkw20.12" vType="pkw" speedFactor="0.97" vaporized="">
-        <emissions CO_abs="2123.189914" CO2_abs="261014.904963" HC_abs="14.306929" PMx_abs="2.799677" NOx_abs="91.081767" fuel_abs="83252.714168" electricity_abs="0"/>
     </tripinfo>
 </tripinfos>
