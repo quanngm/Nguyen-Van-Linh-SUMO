@@ -11,11 +11,11 @@
         <tripinfo-output value="data.xml"/>
         <emission-output value="emissions_data.xml" />
         <device.emissions.probability value="1.0" />
-    </processing>
+    </processing>s
 
     <time>
         <begin value="0"/>
-        <end value="600"/>
+        <end value="1200"/>
         <step-length value="1"/> <!-- Simulation step length (default = 1 second) -->
     </time>
 
