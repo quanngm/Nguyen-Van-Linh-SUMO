@@ -2,8 +2,8 @@
 <configuration xmlns:ns0="https://www.w3.org/2001/XMLSchema-instance"
     ns0:noNamespaceSchemaLocation="https://sumo.dlr.de/xsd/sumoConfiguration.xsd">
     <input>
-        <net-file value="simpleT.net.xml" />
-        <route-files value="simpleT.rou.xml" />
+        <net-file value="simpleQ.net.xml" />
+        <route-files value="simpleQ.rou.xml" />
 		
     </input>
     <processing>
