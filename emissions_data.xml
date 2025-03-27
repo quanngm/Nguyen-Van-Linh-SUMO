@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2025-03-25 09:40:51 by Eclipse SUMO GUI Version 1.21.0
+<!-- generated on 2025-03-28 00:39:45 by Eclipse SUMO GUI Version 1.21.0
 <sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="C:\Users\Nguyen Minh Quan\OneDrive\OneDrive - student.vgu.edu.vn\RMIT_Feb\DirectoryName\22302025\Nguyen-Van-Linh-SUMO\simpleT.net.xml"/>
-        <route-files value="C:\Users\Nguyen Minh Quan\OneDrive\OneDrive - student.vgu.edu.vn\RMIT_Feb\DirectoryName\22302025\Nguyen-Van-Linh-SUMO\simpleT.rou.xml"/>
+        <net-file value="C:\Users\Nguyen Minh Quan\Quan\Quan\SUMO_sim\DirectoryName\22302025\Nguyen-Van-Linh-SUMO\simpleT.net.xml"/>
+        <route-files value="C:\Users\Nguyen Minh Quan\Quan\Quan\SUMO_sim\DirectoryName\22302025\Nguyen-Van-Linh-SUMO\simpleT.rou.xml"/>
     </input>
 
     <output>
-        <emission-output value="C:\Users\Nguyen Minh Quan\OneDrive\OneDrive - student.vgu.edu.vn\RMIT_Feb\DirectoryName\22302025\Nguyen-Van-Linh-SUMO\emissions_data.xml"/>
-        <tripinfo-output value="C:\Users\Nguyen Minh Quan\OneDrive\OneDrive - student.vgu.edu.vn\RMIT_Feb\DirectoryName\22302025\Nguyen-Van-Linh-SUMO\data.xml"/>
+        <emission-output value="C:\Users\Nguyen Minh Quan\Quan\Quan\SUMO_sim\DirectoryName\22302025\Nguyen-Van-Linh-SUMO\emissions_data.xml"/>
+        <tripinfo-output value="C:\Users\Nguyen Minh Quan\Quan\Quan\SUMO_sim\DirectoryName\22302025\Nguyen-Van-Linh-SUMO\data.xml"/>
     </output>
 
     <time>
         <begin value="0"/>
-        <end value="1200"/>
+        <end value="3600"/>
         <step-length value="1"/>
     </time>
 

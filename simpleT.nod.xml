@@ -1,39 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+    <vType id="pkw" length="5" maxSpeed="50" departSpeed="max" departLane="best" accel="2.6" decel="4.5" sigma="0.2" speedDev="0.2" vClass="passenger"/>
+    <vType id="bus" length="15" maxSpeed="30" departSpeed="max" departLane="best" accel="1.2" decel="2.5" sigma="0.1" speedDev="0.1" vClass="bus"/>
+    <vType id="bike" length="1.8" width="0.5" maxSpeed="7.5" departSpeed="max" departLane="best" accel="0.8" decel="1.5" sigma="0.5" speedDev="0.5" minGap="0.2" minGapLat="0.3" vClass="bicycle"/>
+    <vType id="scooter" length="2" maxSpeed="50" departSpeed="max" departLane="best" accel="2.6" decel="4.5" sigma="0.7" speedDev="0.2" minGap="0.2" minGapLat="0.3" lcCooperative="0.3" lcAssertive="0.8" lcSpeedGain="0.5" tau="1" emissionClass="HBEFA4/MC_4S_le250cc_Euro-4" vClass="moped"/>
 
-<!-- generated on 2025-03-22 14:19:08 by Eclipse SUMO netedit Version 1.21.0
-<neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+<!--Cross inter section  -->
+    <flow id="pkw1" type="pkw" from="L2" to="L3" begin="0"  number="0" departPos="0" probability="0.5"/>
+    <flow id="bus1" type="bus" from="L2" to="L3" begin="0"  number="0" departPos="0" probability="0.5"/>
+    <flow id="bike1" type="bike" from="L2" to="L3" begin="0"  number="20" departPos="0" probability="0.5"/>
+    <flow id="scooter1" type="scooter" from="L2" to="L3" begin="0"  number="0" departPos="0" probability="0.5"/>
 
-    <input>
-        <sumocfg-file value="C:\Users\Nguyen Minh Quan\OneDrive\OneDrive - student.vgu.edu.vn\RMIT_Feb\DirectoryName\22302025\Nguyen-Van-Linh-SUMO\simpleT.sumocfg"/>
-        <additional-files value=""/>
-        <route-files value="C:\Users\Nguyen Minh Quan\OneDrive\OneDrive - student.vgu.edu.vn\RMIT_Feb\DirectoryName\22302025\Nguyen-Van-Linh-SUMO\simpleT.rou.xml"/>
-        <sumo-net-file value="C:\Users\Nguyen Minh Quan\OneDrive\OneDrive - student.vgu.edu.vn\RMIT_Feb\DirectoryName\22302025\Nguyen-Van-Linh-SUMO\simpleT.net.xml"/>
-    </input>
+    
 
-    <processing>
-        <geometry.min-radius.fix.railways value="false"/>
-        <geometry.max-grade.fix value="false"/>
-        <offset.disable-normalization value="true"/>
-        <lefthand value="0"/>
-    </processing>
-
-    <junctions>
-        <no-turnarounds value="true"/>
-        <junctions.corner-detail value="5"/>
-        <junctions.limit-turn-speed value="5.50"/>
-        <rectangular-lane-cut value="0"/>
-    </junctions>
-
-    <pedestrian>
-        <walkingareas value="0"/>
-    </pedestrian>
-
-    <netedit>
-        <ignore.routeelements value="false"/>
-    </netedit>
-
-</neteditConfiguration>
--->
-
-<nodes version="1.20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
-</nodes>
+</routes>

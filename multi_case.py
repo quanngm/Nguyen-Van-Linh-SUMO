@@ -117,7 +117,7 @@ def main():
 
     while True:
         print(f"\n🟢 Enter vehicle percentages for Scenario {scenario}") 
-        types = ["pkw", "bus", "bike", "scooter"] # Vehicle types
+        types = ["pkw", "bus", "bike", "scooter", "truck"] # Vehicle types
         distribution = {} # Dictionary to store percentage distribution
         total = 0 # Total percentage
         for t in types: # Loop through all vehicle types
