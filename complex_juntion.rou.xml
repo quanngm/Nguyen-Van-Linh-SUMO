@@ -1,0 +1,159 @@
+<routes>
+    <vType id="pkw" length="5" maxSpeed="50" departSpeed="max" departLane="best" accel="2.6" decel="4.5" sigma="0.2" speedDev="0.2" color="0,255,0" vClass="passenger"/>
+    <vType id="bus" length="15" maxSpeed="30" departSpeed="max" departLane="best" accel="1.2" decel="2.5" sigma="0.1" speedDev="0.1" vClass="bus"/>
+    <vType id="bike" length="1.8" width="0.5" maxSpeed="7.5" departSpeed="max" departLane="best" accel="0.8" decel="1.5" sigma="0.5" speedDev="0.5" minGap="0.2" minGapLat="0.3" vClass="bicycle"/>
+    <vType id="scooter" length="2" maxSpeed="50" departSpeed="max" departLane="best" accel="2.6" decel="4.5" sigma="0.7" speedDev="0.2" lcOvertakeRight="0.5" minGap="0.2" minGapLat="0.3" lcCooperative="0.3" lcAssertive="0.8" lcSpeedGain="0.5" tau="1" emissionClass="HBEFA4/MC_4S_le250cc_Euro-4" vClass="moped" color="255,0,0"/>
+    <vType id="truck" length="12" maxSpeed="25" departSpeed="max" departLane="best" accel="1.0" decel="2.0" sigma="0.3" speedDev="0.1" minGap="2.5" vClass="truck" emissionClass="HBEFA4/RigidTruck_BEV_gt7.5-12t" color="0,0,255" />
+  <!--  <vType id="motorcycle" length="2.0" width="0.6" maxSpeed="60" departSpeed="max" departLane="best" accel="2.5" decel="4.0" sigma="0.3" speedDev="0.2" minGap="0.3" minGapLat="0.3" vClass="motorcycle" emissionClass="HBEFA4/MC_4S_le250cc_preEuro" color="255,0,0"/> -->
+
+<!--from L27 to -->
+    <flow id="pkw1" type="pkw" from="L27" to="L3" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus1" type="bus" from="L27" to="L3" begin="0"  number="1" departPos="0" probability="0.5"/>
+
+    <flow id="pkw2" type="pkw" from="L27" to="L1" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus2" type="bus" from="L27" to="L1" begin="0"  number="1" departPos="0" probability="0.5"/>
+
+    <flow id="pkw3" type="pkw" from="L27" to="L4" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus3" type="bus" from="L27" to="L4" begin="0"  number="1" departPos="0" probability="0.5"/>
+
+    <flow id="pkw4" type="pkw" from="L27" to="L7" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus4" type="bus" from="L27" to="L7" begin="0"  number="1" departPos="0" probability="0.5"/>
+
+    <flow id="pkw5" type="pkw" from="L27" to="L10" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus5" type="bus" from="L27" to="L10" begin="0"  number="1" departPos="0" probability="0.5"/>
+
+    <flow id="pkw6" type="pkw" from="L27" to="L9" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus6" type="bus" from="L27" to="L9" begin="0"  number="1" departPos="0" probability="0.5"/>
+
+<!--from L26 to -->
+
+    <flow id="pkw7" type="pkw" from="L26" to="L3" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus7" type="bus" from="L26" to="L3" begin="0"  number="1" departPos="0" probability="0.5"/>
+    <flow id="scooter7" type="scooter" from="L26" to="L3" begin="0"  number="1000" departPos="0" probability="0.5"/>
+    <flow id="bike7" type="bike" from="L26" to="L3" begin="0"  number="1000" departPos="0" probability="0.5"/>
+
+    <flow id="pkw8" type="pkw" from="L26" to="L7" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus8" type="bus" from="L26" to="L7" begin="0"  number="1" departPos="0" probability="0.5"/>
+    <flow id="scooter8" type="scooter" from="L26" to="L7" begin="0"  number="1000" departPos="0" probability="0.5"/>
+    <flow id="bike8" type="bike" from="L26" to="L7" begin="0"  number="1000" departPos="0" probability="0.5"/>
+
+    <flow id="pkw9" type="pkw" from="L26" to="L1" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus9" type="bus" from="L26" to="L1" begin="0"  number="1" departPos="0" probability="0.5"/>
+    <flow id="scooter9" type="scooter" from="L26" to="L1" begin="0"  number="1000" departPos="0" probability="0.5"/>
+    <flow id="bike9" type="bike" from="L26" to="L1" begin="0"  number="1000" departPos="0" probability="0.5"/>
+
+    <flow id="pkw10" type="pkw" from="L26" to="L1" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus10" type="bus" from="L26" to="L1" begin="0"  number="1" departPos="0" probability="0.5"/>
+    <flow id="scooter10" type="scooter" from="L26" to="L1" begin="0"  number="1000" departPos="0" probability="0.5"/>
+    <flow id="bike10" type="bike" from="L26" to="L1" begin="0"  number="1000" departPos="0" probability="0.5"/>
+
+    <flow id="pkw11" type="pkw" from="L26" to="L10" begin="0"  number="15" departPos="0" probability="0.5"/>
+
+
+<!--from L2 to  -->
+    <flow id="pkw12" type="pkw" from="L2" to="L3" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus12" type="bus" from="L2" to="L3" begin="0"  number="1" departPos="0" probability="0.5"/>
+    <flow id="scooter12" type="scooter" from="L2" to="L3" begin="0"  number="1000" departPos="0" probability="0.5"/>
+    <flow id="bike12" type="bike" from="L2" to="L3" begin="0"  number="1000" departPos="0" probability="0.5"/>
+
+    <flow id="pkw13" type="pkw" from="L2" to="L7" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus13" type="bus" from="L2" to="L7" begin="0"  number="1" departPos="0" probability="0.5"/>
+    <flow id="scooter13" type="scooter" from="L2" to="L7" begin="0"  number="1000" departPos="0" probability="0.5"/>
+    <flow id="bike13" type="bike" from="L2" to="L7" begin="0"  number="1000" departPos="0" probability="0.5"/>
+
+    <flow id="pkw14" type="pkw" from="L2" to="L4" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus14" type="bus" from="L2" to="L4" begin="0"  number="1" departPos="0" probability="0.5"/>
+
+
+    <flow id="pkw15" type="pkw" from="L2" to="L9" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus15" type="bus" from="L2" to="L9" begin="0"  number="1" departPos="0" probability="0.5"/>
+    <flow id="scooter15" type="scooter" from="L2" to="L9" begin="0"  number="1000" departPos="0" probability="0.5"/>
+    <flow id="bike15" type="bike" from="L2" to="L9" begin="0"  number="1000" departPos="0" probability="0.5"/>
+
+    <flow id="pkw16" type="pkw" from="L2" to="L10" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus16" type="bus" from="L2" to="L10" begin="0"  number="1" departPos="0" probability="0.5"/>
+
+<!--from L5 to  -->
+    <flow id="pkw18" type="pkw" from="L5" to="L3" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus18" type="bus" from="L5" to="L3" begin="0"  number="1" departPos="0" probability="0.5"/>
+
+
+    <flow id="pkw19" type="pkw" from="L5" to="L4" begin="0"  number="15" departPos="0" probability="0.5"/>
+
+
+    <flow id="pkw20" type="pkw" from="L5" to="L7" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus20" type="bus" from="L5" to="L7" begin="0"  number="1" departPos="0" probability="0.5"/>
+
+
+    <flow id="pkw21" type="pkw" from="L5" to="L9" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus21" type="bus" from="L5" to="L9" begin="0"  number="1" departPos="0" probability="0.5"/>
+
+
+    <flow id="pkw22" type="pkw" from="L5" to="L10" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus22" type="bus" from="L5" to="L10" begin="0"  number="1" departPos="0" probability="0.5"/>
+
+
+    <flow id="pkw23" type="pkw" from="L5" to="L1" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus23" type="bus" from="L5" to="L1" begin="0"  number="1" departPos="0" probability="0.5"/>
+
+    <!--from L22 to  -->
+    <flow id="pkw24" type="pkw" from="L22" to="L7" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus24" type="bus" from="L22" to="L7" begin="0"  number="1" departPos="0" probability="0.5"/>
+    <flow id="scooter24" type="scooter" from="L22" to="L7" begin="0"  number="1000" departPos="0" probability="0.5"/>
+    <flow id="bike24" type="bike" from="L22" to="L7" begin="0"  number="1000" departPos="0" probability="0.5"/>
+
+    <flow id="pkw25" type="pkw" from="L22" to="L9" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus25" type="bus" from="L22" to="L9" begin="0"  number="1" departPos="0" probability="0.5"/>
+    <flow id="scooter25" type="scooter" from="L22" to="L9" begin="0"  number="1000" departPos="0" probability="0.5"/>
+    <flow id="bike25" type="bike" from="L22" to="L9" begin="0"  number="1000" departPos="0" probability="0.5"/>
+
+    <flow id="pkw26" type="pkw" from="L22" to="L10" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus26" type="bus" from="L22" to="L10" begin="0"  number="1" departPos="0" probability="0.5"/>
+
+
+    <flow id="pkw27" type="pkw" from="L22" to="L4" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus27" type="bus" from="L22" to="L4" begin="0"  number="1" departPos="0" probability="0.5"/>
+
+
+    <flow id="pkw28" type="pkw" from="L22" to="L3" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus28" type="bus" from="L22" to="L3" begin="0"  number="1" departPos="0" probability="0.5"/>
+    <flow id="scooter28" type="scooter" from="L22" to="L7" begin="0"  number="1000" departPos="0" probability="0.5"/>
+    <flow id="bike28" type="bike" from="L22" to="L3" begin="0"  number="1000" departPos="0" probability="0.5"/>
+
+    <flow id="pkw29" type="pkw" from="L22" to="L1" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus29" type="bus" from="L22" to="L1" begin="0"  number="1" departPos="0" probability="0.5"/>
+    <flow id="scooter29" type="scooter" from="L22" to="L1" begin="0"  number="1000" departPos="0" probability="0.5"/>
+    <flow id="bike29" type="bike" from="L22" to="L1" begin="0"  number="1000" departPos="0" probability="0.5"/>
+
+<!--from L8 to  -->
+    <flow id="pkw30" type="pkw" from="L8" to="L9" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus30" type="bus" from="L8" to="L9" begin="0"  number="1" departPos="0" probability="0.5"/>
+    <flow id="scooter30" type="scooter" from="L8" to="L9" begin="0"  number="1000" departPos="0" probability="0.5"/>
+    <flow id="bike30" type="bike" from="L8" to="L9" begin="0"  number="1000" departPos="0" probability="0.5"/>
+
+    <flow id="pkw31" type="pkw" from="L8" to="L10" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus31" type="bus" from="L8" to="L10" begin="0"  number="1" departPos="0" probability="0.5"/>
+
+    <flow id="pkw32" type="pkw" from="L8" to="L1" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus32" type="bus" from="L8" to="L1" begin="0"  number="1" departPos="0" probability="0.5"/>
+    <flow id="scooter32" type="scooter" from="L8" to="L1" begin="0"  number="1000" departPos="0" probability="0.5"/>
+    <flow id="bike32" type="bike" from="L8" to="L1" begin="0"  number="1000" departPos="0" probability="0.5"/>
+
+    <flow id="pkw33" type="pkw" from="L8" to="L4" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus33" type="bus" from="L8" to="L4" begin="0"  number="1" departPos="0" probability="0.5"/>
+
+    <flow id="pkw34" type="pkw" from="L8" to="L3" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus34" type="bus" from="L8" to="L3" begin="0"  number="1" departPos="0" probability="0.5"/>
+    <flow id="scooter34" type="scooter" from="L8" to="L3" begin="0"  number="1000" departPos="0" probability="0.5"/>
+    <flow id="bike34" type="bike" from="L8" to="L3" begin="0"  number="1000" departPos="0" probability="0.5"/>
+
+<!--from L14 to  -->
+    <flow id="pkw35" type="pkw" from="L14" to="L41" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus35" type="bus" from="L14" to="L41" begin="0"  number="1" departPos="0" probability="0.5"/>
+
+
+<!--from L13 to  -->
+    <flow id="pkw36" type="pkw" from="L13" to="L40" begin="0"  number="15" departPos="0" probability="0.5"/>
+    <flow id="bus36" type="bus" from="L13" to="L40" begin="0"  number="1" departPos="0" probability="0.5"/>
+
+</routes>
