@@ -13,7 +13,7 @@ TEMPLATE_CONFIG = "template.sumocfg"  # A base SUMO config file to clone
 OUTPUT_FOLDER = "output/"
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
-# ✅ Check if all required input files exist
+### ✅ Check if all required input files exist
 def check_input_files(): # Function to check if all input files exist
     missing = [] # List to store missing files
     for f in [NETWORK_FILE, ROUTE_FILE, TEMPLATE_CONFIG]: # Loop through all required files
